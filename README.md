@@ -27,7 +27,7 @@ O resultado é um **dashboard interativo** feito com [Streamlit](https://streaml
 
 1. **Clone este repositório**
 2. python -m venv venv
-source venv/bin/activate   # Linux/Mac
-venv\Scripts\activate      # Windows
+  2.1 source venv/bin/activate   # Linux/Mac
+  2.2 venv\Scripts\activate      # Windows
 3. pip install -r requirements.txt
 4. streamlit run app.py
