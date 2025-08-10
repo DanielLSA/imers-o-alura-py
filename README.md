@@ -25,9 +25,22 @@ O resultado é um **dashboard interativo** feito com [Streamlit](https://streaml
 
 ## 📦 Como Executar Localmente
 
-1. **Clone este repositório**
-2. python -m venv venv
-  2.1 source venv/bin/activate   # Linux/Mac
-  2.2 venv\Scripts\activate      # Windows
-3. pip install -r requirements.txt
-4. streamlit run app.py
+1. Clone este repositório  
+2. Crie e ative o ambiente virtual:  
+   - **Linux/Mac**:  
+     ```bash
+     python -m venv venv
+     source venv/bin/activate
+     ```  
+   - **Windows**:  
+     ```cmd
+     python -m venv venv
+     venv\Scripts\activate
+     ```  
+3. Instale as dependências:  
+   ```bash
+   pip install -r requirements.txt
+
+4. Execute local
+   ```bash
+   streamlit run app.py
